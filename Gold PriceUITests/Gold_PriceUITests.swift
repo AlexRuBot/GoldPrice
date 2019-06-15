@@ -1,14 +1,14 @@
 //
-//  GoldPriceUITests.swift
-//  GoldPriceUITests
+//  Gold_PriceUITests.swift
+//  Gold PriceUITests
 //
-//  Created by Саша Гужавин on 05/05/2019.
+//  Created by Саша Гужавин on 15/06/2019.
 //  Copyright © 2019 Sasha Guzhavin. All rights reserved.
 //
 
 import XCTest
 
-class GoldPriceUITests: XCTestCase {
+class Gold_PriceUITests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.

@@ -7,19 +7,27 @@
 //
 
 import UIKit
-<<<<<<< HEAD
 
-=======
-import Kanna
->>>>>>> 3b81f8e5570cdaaa90f0ab58ee1caacdb8dfd5c3
-class ViewController: UIViewController, UITextFieldDelegate{
-    @IBOutlet weak var errorViewPrace: UIView!
+// лучше сделать final
+// final class and final function
+
+// паттерны проектирования
+
+// про стиль кода и правила можно использовать swiftlint
+// raywenderlich - code style guide
+
+class ViewController: UIViewController, UITextFieldDelegate {
+    
+    @IBOutlet private weak var errorViewPrace: UIView! // все аутлеты приватные, потому что снаружи никто не должен изменять вью
     @IBOutlet weak var errorViewWeight: UIView!
     @IBOutlet weak var metalSegment: UISegmentedControl!
     @IBOutlet weak var resulfLabel: UILabel!
     @IBOutlet weak var weightTextView: UITextField!
     @IBOutlet weak var praceTextView: UITextField!
+    
     // Расчет введеных значений и вывод их на resulfLabel
+    
+    // требует декомпозиции
     @IBAction func doneButton(_ sender: UIButton) {
        // Запрещает расчет при отсутствии значений
         let myColorRed : UIColor = UIColor.red
@@ -43,11 +51,11 @@ class ViewController: UIViewController, UITextFieldDelegate{
         }
         weightTextView.resignFirstResponder()
         praceTextView.resignFirstResponder()
-        let massa: Double = Double(String(weightTextView.text!))!
+        let massa: Double = Double(String(weightTextView.text!))! // force unwrap === плохо  if let, if var, guard let
         let proba: Int = Int(String(praceTextView.text!))!
         let why: String = String(metalSegment.titleForSegment(at: metalSegment!.selectedSegmentIndex)!)
-        let priceGoldNowRur:Double = 2543
-        let priceSerebroNowRur:Double = 29.56
+        let priceGoldNowRur: Double = 2790.11
+        let priceSerebroNowRur: Double = 31.18
         let myColor : UIColor = UIColor.red
         let myColor1 : UIColor = UIColor.white
         // Формула расчета
@@ -66,11 +74,11 @@ class ViewController: UIViewController, UITextFieldDelegate{
                 return Int("Error 1")!
             }
         }
-        self.resulfLabel.text = " Цена \(price(massa: massa, proba: proba, why: why))руб."
+        self.resulfLabel.text = " Цена \(price(massa: massa, proba: proba, why: why)) руб."
     }
     
     // Очистка информации с экрана
-    @IBAction func clearButtom(_ sender: UIButton) {
+    @IBAction private func clearButtom(_ sender: UIButton) {
         let myColorWhite : UIColor = UIColor.white
         errorViewWeight.backgroundColor = myColorWhite
         errorViewPrace.backgroundColor = myColorWhite
@@ -81,12 +89,11 @@ class ViewController: UIViewController, UITextFieldDelegate{
    
     override func viewDidLoad() {
         super.viewDidLoad()
-         weightTextView.delegate = self
-         praceTextView.delegate = self
-         weightTextView.tintColor = .clear
-         praceTextView.tintColor = .clear
+        initialSetup()
     }
     
+    // IQKeyboardManager - либа для клавиатуры
+    // keyboard notification swift
     // Скрытие клавиатуры при нажатии на экран
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         if touches.first != nil {
@@ -103,3 +110,12 @@ class ViewController: UIViewController, UITextFieldDelegate{
     }
 }
 
+extension ViewController {
+    
+    private func initialSetup() {
+        weightTextView.delegate = self
+        praceTextView.delegate = self
+        weightTextView.tintColor = .clear
+        praceTextView.tintColor = .clear
+    }
+}
