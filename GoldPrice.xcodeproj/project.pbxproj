@@ -1,0 +1,680 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74AB4FDC227ECB760044D68A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AB4FDB227ECB760044D68A /* AppDelegate.swift */; };
+		74AB4FDE227ECB760044D68A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AB4FDD227ECB760044D68A /* ViewController.swift */; };
+		74AB4FE1227ECB760044D68A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74AB4FDF227ECB760044D68A /* Main.storyboard */; };
+		74AB4FE3227ECB780044D68A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74AB4FE2227ECB780044D68A /* Assets.xcassets */; };
+		74AB4FE6227ECB780044D68A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74AB4FE4227ECB780044D68A /* LaunchScreen.storyboard */; };
+		74AB4FF1227ECB780044D68A /* GoldPriceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AB4FF0227ECB780044D68A /* GoldPriceTests.swift */; };
+		74AB4FFC227ECB780044D68A /* GoldPriceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AB4FFB227ECB780044D68A /* GoldPriceUITests.swift */; };
+<<<<<<< HEAD
+=======
+		9E240DB4352DAB458B110449 /* Pods_GoldPriceUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DB52303A56C935906918EBE /* Pods_GoldPriceUITests.framework */; };
+		C315F426557F3B0B558FA368 /* Pods_GoldPrice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C463A9D6380E52B8216E8EEE /* Pods_GoldPrice.framework */; };
+		F62FEE2F8E4157F3288C3F0B /* Pods_GoldPriceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BA6D909A84E22D9F93D0632 /* Pods_GoldPriceTests.framework */; };
+>>>>>>> 3b81f8e5570cdaaa90f0ab58ee1caacdb8dfd5c3
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74AB4FED227ECB780044D68A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74AB4FD0227ECB760044D68A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74AB4FD7227ECB760044D68A;
+			remoteInfo = GoldPrice;
+		};
+		74AB4FF8227ECB780044D68A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74AB4FD0227ECB760044D68A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74AB4FD7227ECB760044D68A;
+			remoteInfo = GoldPrice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		74AB4FD8227ECB760044D68A /* GoldPrice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoldPrice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74AB4FDB227ECB760044D68A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		74AB4FDD227ECB760044D68A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		74AB4FE0227ECB760044D68A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74AB4FE2227ECB780044D68A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74AB4FE5227ECB780044D68A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74AB4FE7227ECB780044D68A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74AB4FEC227ECB780044D68A /* GoldPriceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoldPriceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74AB4FF0227ECB780044D68A /* GoldPriceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoldPriceTests.swift; sourceTree = "<group>"; };
+		74AB4FF2227ECB780044D68A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74AB4FF7227ECB780044D68A /* GoldPriceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoldPriceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74AB4FFB227ECB780044D68A /* GoldPriceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoldPriceUITests.swift; sourceTree = "<group>"; };
+		74AB4FFD227ECB780044D68A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74AB4FD5227ECB760044D68A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+<<<<<<< HEAD
+=======
+				C315F426557F3B0B558FA368 /* Pods_GoldPrice.framework in Frameworks */,
+>>>>>>> 3b81f8e5570cdaaa90f0ab58ee1caacdb8dfd5c3
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74AB4FE9227ECB780044D68A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74AB4FF4227ECB780044D68A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74AB4FCF227ECB760044D68A = {
+			isa = PBXGroup;
+			children = (
+				74AB4FDA227ECB760044D68A /* GoldPrice */,
+				74AB4FEF227ECB780044D68A /* GoldPriceTests */,
+				74AB4FFA227ECB780044D68A /* GoldPriceUITests */,
+				74AB4FD9227ECB760044D68A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74AB4FD9227ECB760044D68A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74AB4FD8227ECB760044D68A /* GoldPrice.app */,
+				74AB4FEC227ECB780044D68A /* GoldPriceTests.xctest */,
+				74AB4FF7227ECB780044D68A /* GoldPriceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74AB4FDA227ECB760044D68A /* GoldPrice */ = {
+			isa = PBXGroup;
+			children = (
+				74AB4FDB227ECB760044D68A /* AppDelegate.swift */,
+				74AB4FDD227ECB760044D68A /* ViewController.swift */,
+				74AB4FDF227ECB760044D68A /* Main.storyboard */,
+				74AB4FE2227ECB780044D68A /* Assets.xcassets */,
+				74AB4FE4227ECB780044D68A /* LaunchScreen.storyboard */,
+				74AB4FE7227ECB780044D68A /* Info.plist */,
+			);
+			path = GoldPrice;
+			sourceTree = "<group>";
+		};
+		74AB4FEF227ECB780044D68A /* GoldPriceTests */ = {
+			isa = PBXGroup;
+			children = (
+				74AB4FF0227ECB780044D68A /* GoldPriceTests.swift */,
+				74AB4FF2227ECB780044D68A /* Info.plist */,
+			);
+			path = GoldPriceTests;
+			sourceTree = "<group>";
+		};
+		74AB4FFA227ECB780044D68A /* GoldPriceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				74AB4FFB227ECB780044D68A /* GoldPriceUITests.swift */,
+				74AB4FFD227ECB780044D68A /* Info.plist */,
+			);
+			path = GoldPriceUITests;
+			sourceTree = "<group>";
+		};
+<<<<<<< HEAD
+=======
+		7995215AFBBAF26E447BCBE6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C463A9D6380E52B8216E8EEE /* Pods_GoldPrice.framework */,
+				5BA6D909A84E22D9F93D0632 /* Pods_GoldPriceTests.framework */,
+				6DB52303A56C935906918EBE /* Pods_GoldPriceUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF00B5D9661FC9EB31668852 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E86A1452471655116B87C21 /* Pods-GoldPrice.debug.xcconfig */,
+				8181CB94F690B1CE54B7BF6B /* Pods-GoldPrice.release.xcconfig */,
+				37DB0689856444075AC80EC4 /* Pods-GoldPriceTests.debug.xcconfig */,
+				438900716425F1D84B5BA41F /* Pods-GoldPriceTests.release.xcconfig */,
+				50B970A088AC8BFED24241BA /* Pods-GoldPriceUITests.debug.xcconfig */,
+				2085D6A0A3B6F6E92F1E7C4D /* Pods-GoldPriceUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+>>>>>>> 3b81f8e5570cdaaa90f0ab58ee1caacdb8dfd5c3
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74AB4FD7227ECB760044D68A /* GoldPrice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74AB5000227ECB780044D68A /* Build configuration list for PBXNativeTarget "GoldPrice" */;
+			buildPhases = (
+				74AB4FD4227ECB760044D68A /* Sources */,
+				74AB4FD5227ECB760044D68A /* Frameworks */,
+				74AB4FD6227ECB760044D68A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoldPrice;
+			productName = GoldPrice;
+			productReference = 74AB4FD8227ECB760044D68A /* GoldPrice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		74AB4FEB227ECB780044D68A /* GoldPriceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74AB5003227ECB780044D68A /* Build configuration list for PBXNativeTarget "GoldPriceTests" */;
+			buildPhases = (
+				2AC50B4B6F214A8FAE941854 /* [CP] Check Pods Manifest.lock */,
+				74AB4FE8227ECB780044D68A /* Sources */,
+				74AB4FE9227ECB780044D68A /* Frameworks */,
+				74AB4FEA227ECB780044D68A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74AB4FEE227ECB780044D68A /* PBXTargetDependency */,
+			);
+			name = GoldPriceTests;
+			productName = GoldPriceTests;
+			productReference = 74AB4FEC227ECB780044D68A /* GoldPriceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		74AB4FF6227ECB780044D68A /* GoldPriceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74AB5006227ECB780044D68A /* Build configuration list for PBXNativeTarget "GoldPriceUITests" */;
+			buildPhases = (
+				D889CD41183617B2E7652B74 /* [CP] Check Pods Manifest.lock */,
+				74AB4FF3227ECB780044D68A /* Sources */,
+				74AB4FF4227ECB780044D68A /* Frameworks */,
+				74AB4FF5227ECB780044D68A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74AB4FF9227ECB780044D68A /* PBXTargetDependency */,
+			);
+			name = GoldPriceUITests;
+			productName = GoldPriceUITests;
+			productReference = 74AB4FF7227ECB780044D68A /* GoldPriceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74AB4FD0227ECB760044D68A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Sasha Guzhavin";
+				TargetAttributes = {
+					74AB4FD7227ECB760044D68A = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					74AB4FEB227ECB780044D68A = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 74AB4FD7227ECB760044D68A;
+					};
+					74AB4FF6227ECB780044D68A = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 74AB4FD7227ECB760044D68A;
+					};
+				};
+			};
+			buildConfigurationList = 74AB4FD3227ECB760044D68A /* Build configuration list for PBXProject "GoldPrice" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74AB4FCF227ECB760044D68A;
+			productRefGroup = 74AB4FD9227ECB760044D68A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74AB4FD7227ECB760044D68A /* GoldPrice */,
+				74AB4FEB227ECB780044D68A /* GoldPriceTests */,
+				74AB4FF6227ECB780044D68A /* GoldPriceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74AB4FD6227ECB760044D68A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74AB4FE6227ECB780044D68A /* LaunchScreen.storyboard in Resources */,
+				74AB4FE3227ECB780044D68A /* Assets.xcassets in Resources */,
+				74AB4FE1227ECB760044D68A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74AB4FEA227ECB780044D68A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74AB4FF5227ECB780044D68A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2AC50B4B6F214A8FAE941854 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoldPriceTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D889CD41183617B2E7652B74 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoldPriceUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74AB4FD4227ECB760044D68A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74AB4FDE227ECB760044D68A /* ViewController.swift in Sources */,
+				74AB4FDC227ECB760044D68A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74AB4FE8227ECB780044D68A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74AB4FF1227ECB780044D68A /* GoldPriceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74AB4FF3227ECB780044D68A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74AB4FFC227ECB780044D68A /* GoldPriceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74AB4FEE227ECB780044D68A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74AB4FD7227ECB760044D68A /* GoldPrice */;
+			targetProxy = 74AB4FED227ECB780044D68A /* PBXContainerItemProxy */;
+		};
+		74AB4FF9227ECB780044D68A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74AB4FD7227ECB760044D68A /* GoldPrice */;
+			targetProxy = 74AB4FF8227ECB780044D68A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		74AB4FDF227ECB760044D68A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74AB4FE0227ECB760044D68A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		74AB4FE4227ECB780044D68A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74AB4FE5227ECB780044D68A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74AB4FFE227ECB780044D68A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		74AB4FFF227ECB780044D68A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74AB5001227ECB780044D68A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2NJA6A6R83;
+				INFOPLIST_FILE = GoldPrice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SashaApp.GoldPrice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		74AB5002227ECB780044D68A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2NJA6A6R83;
+				INFOPLIST_FILE = GoldPrice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SashaApp.GoldPrice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		74AB5004227ECB780044D68A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2NJA6A6R83;
+				INFOPLIST_FILE = GoldPriceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SashaApp.GoldPriceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoldPrice.app/GoldPrice";
+			};
+			name = Debug;
+		};
+		74AB5005227ECB780044D68A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2NJA6A6R83;
+				INFOPLIST_FILE = GoldPriceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SashaApp.GoldPriceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoldPrice.app/GoldPrice";
+			};
+			name = Release;
+		};
+		74AB5007227ECB780044D68A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2NJA6A6R83;
+				INFOPLIST_FILE = GoldPriceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SashaApp.GoldPriceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GoldPrice;
+			};
+			name = Debug;
+		};
+		74AB5008227ECB780044D68A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2NJA6A6R83;
+				INFOPLIST_FILE = GoldPriceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SashaApp.GoldPriceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GoldPrice;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74AB4FD3227ECB760044D68A /* Build configuration list for PBXProject "GoldPrice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74AB4FFE227ECB780044D68A /* Debug */,
+				74AB4FFF227ECB780044D68A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74AB5000227ECB780044D68A /* Build configuration list for PBXNativeTarget "GoldPrice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74AB5001227ECB780044D68A /* Debug */,
+				74AB5002227ECB780044D68A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74AB5003227ECB780044D68A /* Build configuration list for PBXNativeTarget "GoldPriceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74AB5004227ECB780044D68A /* Debug */,
+				74AB5005227ECB780044D68A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74AB5006227ECB780044D68A /* Build configuration list for PBXNativeTarget "GoldPriceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74AB5007227ECB780044D68A /* Debug */,
+				74AB5008227ECB780044D68A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74AB4FD0227ECB760044D68A /* Project object */;
+}
